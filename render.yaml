@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: agent02-rl-vs-rule-demo
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python web_demo.py
