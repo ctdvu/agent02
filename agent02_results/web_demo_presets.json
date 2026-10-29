@@ -1,0 +1,53 @@
+[
+  {
+    "preset": "Kịch bản 1: Chuẩn (Baseline, α=0.10, δ=20%)",
+    "alpha": 0.1,
+    "discount_rate": 0.2,
+    "seed": 42,
+    "train_rl_mean": 33.45548,
+    "eval_rl_mean": 35.1275,
+    "eval_rl_disc": 0.0,
+    "eval_rule_mean": 34.9685,
+    "eval_rule_disc": 0.0,
+    "greedy_policy": {
+      "(0,0)": 0,
+      "(0,1)": 1,
+      "(1,0)": 0,
+      "(1,1)": 1
+    }
+  },
+  {
+    "preset": "Kịch bản 2: Tốc độ học cao (α=0.50, δ=20%)",
+    "alpha": 0.5,
+    "discount_rate": 0.2,
+    "seed": 1042,
+    "train_rl_mean": 31.9006,
+    "eval_rl_mean": 28.3387,
+    "eval_rl_disc": 0.4135,
+    "eval_rule_mean": 29.1543,
+    "eval_rule_disc": 0.1946,
+    "greedy_policy": {
+      "(0,0)": 0,
+      "(0,1)": 0,
+      "(1,0)": 1,
+      "(1,1)": 0
+    }
+  },
+  {
+    "preset": "Kịch bản 3: Thị trường khuyến mãi (α=0.10, δ=8%)",
+    "alpha": 0.1,
+    "discount_rate": 0.08,
+    "seed": 42,
+    "train_rl_mean": 34.671574,
+    "eval_rl_mean": 34.26067999999968,
+    "eval_rl_disc": 0.6446,
+    "eval_rule_mean": 32.15317999999993,
+    "eval_rule_disc": 0.3039,
+    "greedy_policy": {
+      "(0,0)": 1,
+      "(0,1)": 1,
+      "(1,0)": 0,
+      "(1,1)": 1
+    }
+  }
+]
